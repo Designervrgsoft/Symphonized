@@ -1,0 +1,76 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+div {margin-top: 20px !important;}
+
+div.first {background: url(images/DSC03318.gif) no-repeat;
+background-size: auto 300px;
+height: 300px;
+width: 390px;
+margin: 0 auto;
+}
+div.first:hover  {background: url(images/DSC02643.gif) no-repeat;
+    text-align:center;
+    background-size: auto 300px;}
+
+.first a{position: relative;
+    top: 72%;
+    left: 16%;
+background: rgba(0, 0, 0, 1);}
+.first a {visibility: hidden}
+.first:hover a {visibility: visible}
+a{border: 0px;
+border-radius: 2px;
+color:rgb(255,255,255);
+padding: 10px 60px;
+text-align: center;
+background: rgba(0, 0, 0, 0.3);
+text-decoration: none;
+}
+div.second {background: url(images/DSC03318.gif) no-repeat;
+background-size: auto 300px;
+height: 300px;
+width: 390px;
+margin: 0 auto;
+}
+div.second:hover  {background: url(images/DSC02643.gif) no-repeat;
+    text-align:center;
+    background-size: auto 300px;}
+
+.second a{position: relative;
+    padding: 140px 390px;
+    top: 47%;
+    left: 0%;
+background: rgba(0, 0, 0, 0);}
+.second a {visibility: hidden}
+.second:hover a {visibility: visible}
+
+div.three {background: url(images/DSC02795.gif) no-repeat;
+background-size: auto 400px;
+height: 400px;
+width: 400px;
+margin: 0 auto;
+float:left;
+}
+
+
+  div.four {background: url(images/ZhhTq4mQm0k.gif) no-repeat;
+    background-size: auto 400px;
+    height: 400px;
+    width: 280px;
+    margin: 0 auto;
+    float: left;
+}
+
+
+.four a{    position: relative;
+    top: 80%;
+    left: 25%;
+background: rgba(0, 0, 0, 0.7);}
+.four a {visibility: hidden}
+.four:hover a {visibility: visible}
+
+.end {height: 400px;
+    margin-left: 260px;}
+.visible a {visibility: visible}
